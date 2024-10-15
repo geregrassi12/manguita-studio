@@ -1,0 +1,11 @@
+.navbar{
+    height: 6rem;
+}
+
+.navbar-brand {
+    padding-left: 5rem; /* Eliminar el padding que causa el desplazamiento */
+}
+
+.navbar-nav {
+    padding-right: 11.5rem;
+}

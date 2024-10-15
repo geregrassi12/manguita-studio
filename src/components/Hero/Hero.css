@@ -1,0 +1,14 @@
+/* Hero.css */
+.hero {
+    padding: 0;
+    height: 100vh; /* Ocupa toda la altura del viewport (pantalla) */
+    width: 100%; /* Ocupa todo el ancho */
+  
+    background-image: url('../../../img/background-topdown.png'); /* Ruta a tu imagen de fondo */
+}
+
+.hero-container h1 {
+    color: white;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Añadir sombra al texto */
+}

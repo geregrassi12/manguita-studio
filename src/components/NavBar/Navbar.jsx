@@ -1,25 +1,27 @@
 import React from 'react';
 import './navbar.css'
+import { Link } from 'react-router-dom';
+
 
 
 export default function Navbar() {
     return (
-            <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">ManguitaStudio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <div className="collapse navbar-collapse justify-content-center" id="navbarText">
+                    <ul className="navbar-nav mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Features</a>
+                            <Link className="nav-link" to={'/privacy'}>Privacy</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
+                            <Link className="nav-link" to={'/contact'}>Contact</Link>
                         </li>
                     </ul>
                 </div>
