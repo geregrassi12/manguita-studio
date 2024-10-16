@@ -1,6 +1,6 @@
-import './Hero.css';
+import './ImageListContainer.css'
 
-export default function Hero() {
+export default function ImageListContainer() {
     return (
         <div className="hero-container">
             <div className="hero">

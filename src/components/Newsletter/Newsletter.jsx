@@ -1,6 +1,6 @@
-import './Hero.css';
+import './Newsletter.css'
 
-export default function Hero() {
+export default function Newsletter() {
     return (
         <div className="hero-container">
             <div className="hero">
