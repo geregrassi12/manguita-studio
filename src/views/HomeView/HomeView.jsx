@@ -1,12 +1,12 @@
 import Hero from "../../components/Hero/Hero";
-import ImageListContainer from "../../components/ImageListContainer/ImageListContainer";
+import GameListContainer from "../../components/GameListContainer/GameListContainer";
 import Newsletter from "../../components/Newsletter/Newsletter";
 
 export default function HomeView(){
     return(
         <div>
             <Hero/>
-            <ImageListContainer/>
+            <GameListContainer/>
             <Newsletter/>
         </div>
     )
