@@ -7,7 +7,7 @@ export default function HomeView(){
         <div>
             <Hero/>
             <GameListContainer/>
-            <Newsletter/>
+            {/* <Newsletter/> */}
         </div>
     )
 } 

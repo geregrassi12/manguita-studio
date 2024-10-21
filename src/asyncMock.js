@@ -4,24 +4,6 @@ const games = [
         tittle: "Top Down - 01",
         description: "tank tank tank tank tank tank",
         img: "../img/topdown-gamelist.png"
-    },
-    {
-        id: "manguita-studio",
-        tittle: "Top Down - 01",
-        description: "tank tank tank tank tank tank",
-        img: "../img/topdown-gamelist.png"
-    },
-    {
-        id: "manguita-studio",
-        tittle: "Top Down - 01",
-        description: "tank tank tank tank tank tank",
-        img: "../img/topdown-gamelist.png"
-    },
-    {
-        id: "manguita-studio",
-        tittle: "Top Down - 01",
-        description: "tank tank tank tank tank tank",
-        img: "../img/topdown-gamelist.png"
     }
 ]
 

@@ -1,5 +1,6 @@
 .navbar{
     height: 6rem;
+    width: 100vw;
 }
 
 .navbar-brand {
