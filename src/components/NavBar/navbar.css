@@ -13,3 +13,8 @@
 .navbar{
     display: flex;
 }
+
+link:hover{
+    text-decoration: none;
+    text-decoration-style: none;
+}

@@ -1,0 +1,32 @@
+.hero-games {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: flex-start; /* Alinea el contenedor desde el inicio */
+    min-height: 100vh; /* Se asegura de que ocupe al menos el 100% del alto de la pantalla */
+    width: 100vw;
+    padding: 10rem;
+}
+
+.game-section-solitaire {
+    width: 100%;
+    max-width: 800px; /* Define un ancho máximo para que no se extienda demasiado */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Mantiene todo alineado desde la parte superior */
+    align-items: center; /* Alinea horizontalmente el contenido */
+    text-align: center;
+}
+
+.game-section-solitaire-details h1,
+.game-section-solitaire-details h2,
+.game-section-solitaire-details p {
+    text-align: left; /* Alinea el texto a la izquierda dentro del contenedor centrado */
+    width: 100%;
+    margin: 0 0 15px 0; /* Agrega un margen inferior para dar espacio entre los elementos */
+    line-height: 1.5; /* Mejora la legibilidad */
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
