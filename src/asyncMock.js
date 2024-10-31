@@ -1,9 +1,11 @@
+import topdownImage from '../img/topdown-gamelist.png';
+
 const games = [
     {
         id: "manguita-studio",
         tittle: "Top Down - 01",
         description: "tank tank tank tank tank tank",
-        img: "../img/topdown-gamelist.png"
+        img: `${topdownImage}`
     }
 ]
 

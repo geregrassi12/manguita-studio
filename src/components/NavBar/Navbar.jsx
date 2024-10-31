@@ -1,7 +1,10 @@
 import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css'; // Asegúrate de tener estilos definidos para la clase active
+import logo2manguita from '../../../img/manguitastudio_logo2.png';
+
 
 export default function NavBar() {
+
     const location = useLocation(); // Hook para obtener la ubicación actual
 
     // Función para verificar si la ruta es activa
@@ -13,8 +16,8 @@ export default function NavBar() {
                 <a className="navbar-brand">
                     <Link className={`nav-link ${isActive('/') ? 'active' : ''}`} aria-current="page" to={'/'}>
                         <span>
-                            <img src="../../../img/manguitastudio_logo2.png" alt="Logo Manguita" />
-                        </span>
+                            <img src={logo2manguita} alt="Logo Manguita" />
+                        </span> 
                         ManguitaStudio
                     </Link>
                 </a>
@@ -33,11 +36,7 @@ export default function NavBar() {
                                 Privacy
                             </Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className={`nav-link ${isActive('/contact') ? 'active' : ''}`} to={'/contact'}>
-                                Contact
-                            </Link>
-                        </li> */}
+                        
                     </ul>
                 </div>
             </div>
