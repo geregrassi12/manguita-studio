@@ -36,6 +36,14 @@ a {
 a:hover {
   color: #535bf2;
 }
+Link{
+  font-weight: 800;
+  color: #646cff;
+  text-decoration: inherit;
+}
+Link:hover{
+  color: #535bf2;
+}
 
 html, body {
   height: 100%;
@@ -93,3 +101,22 @@ button:focus-visible {
   width: 100%;
 }
 
+
+.gk-gap1 {
+  height: 20px;
+}
+.gk-gap2 {
+  height: 40px;
+}
+.gk-gap3 {
+  height: 60px;
+}
+.gk-gap4 {
+  height: 80px;
+}
+.gk-gap5 {
+  height: 100px;
+}
+.gk-gap6 {
+  height: 120px;
+}

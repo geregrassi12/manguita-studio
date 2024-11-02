@@ -1,35 +1,65 @@
-.gameslistcontainer{
+.gameslistcontainer {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100rem;
+    height: auto;
     background-color: rgb(46, 46, 46);
     overflow: hidden;
     color: white;
 }
 
-.container{
-
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-
-    justify-items: center;
-    align-items: center;
-    justify-content: space-between;
-    align-content: center;
-    
-    gap: 4rem;
+.container {
     padding: 4rem;
 }
 
-.games-cards{
+/* Estilos para el juego grande */
+.large-game-card {
+    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: row;
     border-radius: 2rem;
     padding: 2rem;
-    gap: 2rem;
+    gap: 1rem;
     background-color: rgb(68, 68, 68);
 }
 
+.large-game-card img {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 
-.gk-gap3 {
-    height: 60px;
+
+
+/* Grid para los juegos pequeños */
+.small-games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 2rem;
+    justify-content: space-between; /* Espaciado entre columnas */
+}
+
+.games-cards {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: rgb(68, 68, 68);
+}
+
+.games-cards img {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.games-buttons {
+    display: flex;
+    
+}
+
+.games-info{
+    text-align: left;
+    height: auto;
+    width: auto;
 }
