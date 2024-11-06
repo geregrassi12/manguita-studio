@@ -1,16 +1,19 @@
-.navbar{
-    height: 6rem;
+footer{
+    background-color: #01020d;
+    height: 70vh;
     width: 100vw;
 }
 
-.navbar-brand {
-    padding-right: 5rem;
-}
 
-.navbar-nav {
-    padding-left: 11.5rem;
-}
 
 .navbar{
-    display: flex;
+    position: absolute;
+    top:60%;
+    color: white;
 }
+
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+

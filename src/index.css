@@ -19,7 +19,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 Link{
@@ -120,3 +121,5 @@ button:focus-visible {
 .gk-gap6 {
   height: 120px;
 }
+
+

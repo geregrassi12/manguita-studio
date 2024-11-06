@@ -3,14 +3,19 @@
     padding: 0;
     width: 100vw;
     height: auto;
-    background-color: rgb(46, 46, 46);
+    background-color: #010916;
     overflow: hidden;
     color: white;
+
 }
 
+
+
 .container {
-    padding: 4rem;
+    padding: 4rem;  
 }
+
+
 
 /* Estilos para el juego grande */
 .large-game-card {
@@ -20,7 +25,7 @@
     border-radius: 2rem;
     padding: 2rem;
     gap: 1rem;
-    background-color: rgb(68, 68, 68);
+    background-color: #131628;
 }
 
 .large-game-card img {
@@ -45,7 +50,7 @@
     border-radius: 2rem;
     padding: 2rem;
     gap: 1rem;
-    background-color: rgb(68, 68, 68);
+    background-color:  #131628;
 }
 
 .games-cards img {

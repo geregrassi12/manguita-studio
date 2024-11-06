@@ -6,7 +6,6 @@ import Navbar from './components/NavBar/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomeView from './views/HomeView/HomeView';
 import Privacy from './views/Privacy/Privacy';
-import Contact from './views/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 
@@ -18,7 +17,6 @@ function App() {
       <Routes>
     <Route path="/" element={<HomeView/>} />
     <Route path='/privacy' element={<Privacy/>}/>
-    <Route path='/contact' element={<Contact/>}/>
     </Routes>
       </div>
       <Footer/>
